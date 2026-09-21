@@ -33,15 +33,6 @@ OPENAI_API_KEY=sk-...
 CLAUDE_API_KEY=sk-ant-...
 ```
 
-## セットアップ
-
-```sh
-git clone <このリポジトリ>
-cd log-summarizer
-```
-
-プロジェクトルートに `.env` ファイルを作成し、上記「環境変数」の内容に従って使用するプロバイダの API キーを設定してください。
-
 ## 実行方法
 
 `exec-maven-plugin`（メインクラス: `org.example.aijava.logsummarizer.Main`）を使って実行します。
